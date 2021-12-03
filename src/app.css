@@ -1,0 +1,33 @@
+html,body{
+    background-color: transparent;
+    height: 100%;
+}
+
+ ::-webkit-scrollbar {
+    width: 0px;
+  }
+.label{
+    display: flex;
+    justify-content: center;
+}
+.chooser{
+    margin-left: 35%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn{
+    margin-left: 35%;
+    height: 50px;
+    width: 100px;
+    background-color: brown;
+    border: none;
+    border-radius: 5px;
+}
+.close{
+    color: red;
+    background-color: black;
+    cursor: pointer;
+}
